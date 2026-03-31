@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexiDrink – Drink Free. Recover Strong.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background: #0077b6;
+            color: white;
+            padding: 40px 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background: #00b4d8;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .section:nth-child(even) {
+            background: #f4f4f4;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .box {
+            margin: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            width: 200px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 250px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>FlexiDrink</h1>
+    <p>Drink Free. Recover Strong.</p>
+    <a href="#contact" class="btn">Order Now</a>
+</header>
+
+<section class="section">
+    <h2>The Problem</h2>
+    <p>After neck surgery, drinking water becomes painful and difficult.</p>
+</section>
+
+<!-- ✅ Image Section -->
+<section class="section">
+    <h2>Our Product</h2>
+    
+    <!-- Replace image name with your file -->
+    <img src="bottle1.png" alt="FlexiDrink Bottle">
+    <img src="bottle2.png" alt="FlexiDrink Bottle">
+    <img src="bottle3.png" alt="FlexiDrink Bottle">
+
+    <p>Ergonomic design for pain-free hydration</p>
+</section>
+
+<section class="section">
+    <h2>Features</h2>
+    <div class="features">
+        <div class="box">30° Angled Neck</div>
+        <div class="box">Soft Squeezable Body</div>
+        <div class="box">One-Hand Use</div>
+        <div class="box">Spill-Proof</div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: flexidrink@gmail.com</p>
+</section>
+
+</body>
+</html>
